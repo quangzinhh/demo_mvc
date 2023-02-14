@@ -1,4 +1,8 @@
 <?php
+  include_once('./views/layouts/navbar.php');
+?>
+
+<?php
 echo '<ul>';
 foreach ($posts as $post) {
   echo '<li>
@@ -6,4 +10,8 @@ foreach ($posts as $post) {
   </li>';
 }
 echo '</ul>';
+?>
+
+<?php
+  include_once('./views/layouts/footer.php');
 ?>
