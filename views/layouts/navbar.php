@@ -20,21 +20,19 @@
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.php?controller=posts">Posts</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+        <a class="nav-link" href="index.php?controller=intro&action=index">Intro</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link" href="index.php?controller=posts">Posts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?controller=service&action=index">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?controller=news&action=index">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?controller=connection&action=index">Connections</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

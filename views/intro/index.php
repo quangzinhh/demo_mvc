@@ -12,13 +12,11 @@
   <title>Document</title>
 </head>
 <body>
-  Hãy gõ gì đó vào đây
+    Đây là trang intro
   <br>
 </body>
 </html>
-<?php
-  echo "Tên tôi là: $name, năm nay tôi $age tuổi";
-?>
+
 
 <?php
   include_once('./views/layouts/footer.php');
